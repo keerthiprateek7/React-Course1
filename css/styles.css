@@ -1,3 +1,27 @@
+#loginModal .modal-header {
+  background-color: #512da8; }
+
+#loginModal .modal-title {
+  color: floralwhite; }
+
+#loginModal .close {
+  color: #9575cd; }
+
+#loginModal .modal-body {
+  background-color: #9575cd; }
+
+#reserveModal .modal-header {
+  background-color: #512da8; }
+
+#reserveModal .modal-title {
+  color: floralwhite; }
+
+#reserveModal .close {
+  color: #9575cd; }
+
+#reserveModal .modal-body {
+  background-color: #9575cd; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }

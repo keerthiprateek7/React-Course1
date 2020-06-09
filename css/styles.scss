@@ -2,9 +2,43 @@ $lt-gray: #ddd;
 $background-dark: #512da8;
 $background-light: #9575cd;
 $background-pale: #d1c4e9;
+$title-color: floralwhite;
 
 // Height variables
 $carousel-item-height: 300px;
+
+//login modal code
+
+#loginModal {
+  .modal-header {
+    background-color: $background-dark;
+  }
+  .modal-title {
+    color: $title-color;
+  }
+  .close {
+    color: $background-light;
+  }
+  .modal-body {
+    background-color: $background-light;
+  }
+}
+
+//Reserve modal code
+#reserveModal {
+  .modal-header {
+    background-color: $background-dark;
+  }
+  .modal-title {
+    color: $title-color;
+  }
+  .close {
+    color: $background-light;
+  }
+  .modal-body {
+    background-color: $background-light;
+  }
+}
 
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
   margin: 0px auto;
